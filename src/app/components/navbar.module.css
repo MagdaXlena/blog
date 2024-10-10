@@ -1,0 +1,30 @@
+.container {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    background-color:#55185d;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+}
+
+.logo {
+    flex: 2;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.links {
+    display: flex;
+    font-size: 18px;
+    gap: 50px;
+    flex: 1;
+    background-color: #ffd524;
+    border-radius: 20px;
+    padding: 15px;
+    justify-content: center;
+   
+}

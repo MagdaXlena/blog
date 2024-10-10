@@ -1,0 +1,23 @@
+.commentForm {
+    margin-top: 60px;
+}
+
+.comment {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 15px;
+    border-radius: 20px;
+   
+}
+
+.input {
+    border: 2px solid lavender;
+    border-radius: 20px;
+    height: 40px;
+    text-align: center;
+}
+
+.addNewComment {
+    font-size: 20px;
+}

@@ -1,0 +1,59 @@
+.button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    width: max-content;
+    cursor: pointer;
+}
+
+.postForm {
+    margin: 60px;
+    align-items: center;  
+}
+
+.form {
+    height: 600px;
+    background-color: rgb(247, 162, 247);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-evenly;
+    padding: 10px;
+
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 8px;
+    font-weight: bold;
+}
+
+.title {
+    background-color: lavender;
+    border-color: #55185d;
+    border-radius: 10px;
+    height: 40px;
+    border: none;
+
+}
+.text {
+    background-color: lavender;
+    border-color: #55185d;
+    border-radius: 10px;
+    height: 300px;
+    border: none;
+   
+}
+ 
+.img_url {
+    background-color: lavender;
+    border-color: #55185d;
+    border-radius: 10px;
+    height: 40px;
+    border: none;
+}

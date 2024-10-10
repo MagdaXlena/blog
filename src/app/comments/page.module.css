@@ -1,0 +1,16 @@
+.commentsContainer {
+    margin: 20px;
+}
+
+.comments {
+    margin-top: 10px;
+    border: 2px solid lavender;
+    padding: 20px;
+    border-radius: 20px;
+  
+}
+
+.name {
+    font-size: 17px;   
+    font-weight: bolder;
+}

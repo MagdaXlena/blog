@@ -1,0 +1,52 @@
+.blogsContainer {
+    margin-top: 60px;
+}
+
+.blogTitle {
+    font-size: 40px;
+    margin: 20px;
+}
+
+.blogTitles {
+    font-size: 30px;
+    
+}
+
+.blogTexts {
+    font-size: 22px;
+}
+
+.button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    width: max-content;
+    cursor: pointer;
+}
+
+ .newPostButton {
+    border: none;
+    border-radius: 20px;
+    background-color: #ffd524;
+    color: #55185d;
+    cursor: pointer;
+    width: 40%;
+    padding: 20px;
+    margin-right: 20px;
+    
+    
+ }
+
+.titlesContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(241, 238, 238);
+    border-radius: 20px;
+    
+    
+}
