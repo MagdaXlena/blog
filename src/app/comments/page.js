@@ -2,6 +2,7 @@ import pg from "pg";
 import Link from "next/link"
 import styles from "./page.module.css"
 import NewComment from "../components/newComment/NewComment";
+import LikeButton from "../components/likeButton/LikeButton";
 
 
 export default async function Comments() {
@@ -22,6 +23,8 @@ export default async function Comments() {
                     <div className={styles.name}>{comment.name}</div>
                     <br></br>
                     <div className={styles.comment}>{comment.comment}</div>
+                    <br></br>
+                    <LikeButton />
                 </div>
             ))}
             <NewComment />

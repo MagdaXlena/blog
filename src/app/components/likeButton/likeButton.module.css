@@ -1,0 +1,17 @@
+.likeButton {
+    background-color: grey;
+    color: white;
+    width: fit-content;
+    display: flex;
+    gap: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    border: solid lightgrey;
+
+}
+
+.like {
+    background-color: transparent;
+    border: none;
+    color: white;
+}
