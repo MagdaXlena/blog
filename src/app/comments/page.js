@@ -18,7 +18,7 @@ export default async function Comments() {
         <div className={styles.commentsContainer}>
             <h2> Comments</h2>
             {final.map(comment => (
-                <div className={styles.comments}>
+                <div key={comment.id} className={styles.comments}>
                     <div className={styles.name}>{comment.name}</div>
                     <br></br>
                     <div className={styles.comment}>{comment.comment}</div>

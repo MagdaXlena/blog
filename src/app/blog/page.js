@@ -21,7 +21,7 @@ export default async function BlogPage() {
         </Link>
             <br></br>
             {final.map(bike => (
-                <div className={styles.titlesContainer}> 
+                <div key={bike.id} className={styles.titlesContainer}> 
                     <Link href={`blog/${bike.id}`} className={styles.blogTitles}>{bike.title} </Link>
                     <br></br>
                     <Link href={`blog/${bike.id}`} className={styles.blogTexts}>{bike.text.substring(0,150)} ... </Link>
