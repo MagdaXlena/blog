@@ -3,7 +3,7 @@ import { revalidatePath } from "next/cache";
 import { redirect } from "next/dist/server/api-utils";
 import styles from "./newComment.module.css"
 
-export default function NewComment() {
+export default function NewComment({id}) {
     
 
         async function handleSubmit(formData) {
@@ -15,9 +15,9 @@ export default function NewComment() {
 
             const {name, comment} = Object.fromEntries(formData)
 
-            await db.query('INSERT INTO blog_comment (name, comment) VALUES ($1,$2)', [name, comment]);
+            await db.query('INSERT INTO blog_comment (name, comment, blog_id) VALUES ($1,$2, $3)', [name, comment, id]);
 
-            revalidatePath('/comments')
+            revalidatePath('/blog/[id]')
         }
         
         return (

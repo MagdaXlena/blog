@@ -8,7 +8,6 @@ export default function Navbar() {
             <div className={styles.links}>
                 <Link href="/">Home</Link>
                 <Link href="/blog">Blog</Link>
-                <Link href="/comments">Comments</Link>
             </div>
         </div>
     )

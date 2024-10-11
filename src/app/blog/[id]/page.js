@@ -2,7 +2,7 @@ import pg from "pg";
 import styles from "./page.module.css"
 import Image from "next/image";
 import Link from "next/link";
-
+import Comments from "@/app/components/comments/Comments";
 
 
 export default async function Page({params}) {
@@ -25,9 +25,7 @@ export default async function Page({params}) {
             <div className={styles.textContainer}>
                 <h1 className={styles.blogTitle}>{bike.title}</h1>
                 <p className={styles.blogText}>{bike.text}</p>
-                <Link href="/comments">
-                    <button className={styles.button}>Add comment</button>
-                </Link>
+                <Comments id={params.id}/>
             </div> 
             
            
