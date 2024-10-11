@@ -17,8 +17,7 @@ export default function NewComment() {
 
             await db.query('INSERT INTO blog_comment (name, comment) VALUES ($1,$2)', [name, comment]);
 
-            // revalidatePath('/comments')
-            // redirect('/comments')
+            revalidatePath('/comments')
         }
         
         return (
